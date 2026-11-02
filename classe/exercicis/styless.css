@@ -1,0 +1,33 @@
+body {
+    width: 100vw;
+}
+
+.grid-container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5em;
+}
+
+.one {
+    grid-column: 2 / -1;
+    grid-row: 1;
+}
+
+.two {
+    grid-column: 1 / 1;
+    grid-row: 2 / 3;
+}
+
+.three {
+    grid-column: 2 / -1;
+    grid-row: 2 / 3;
+}
+
+.four {
+    grid-column: 1 / -1;
+    grid-row: 3;
+}
+
