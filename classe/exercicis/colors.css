@@ -9,3 +9,10 @@
 p {
     color: white;
 }
+
+.e, .f, .g {
+    background-color: #ccc;
+}
+.e p, .f p, .g p {
+    color: #444;
+}
